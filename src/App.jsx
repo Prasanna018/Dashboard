@@ -11,6 +11,7 @@ import Right from "./component/Right";
 import AirQuality from "./pages/transportation/BridgeTransportation";
 import BridgeTransportation from "./pages/transportation/BridgeTransportation";
 import CommuteMode from "./pages/transportation/CommuteMode";
+import Congestion from "./pages/transportation/Congestion";
 // Transportation
 // import BridgeConditions from "./pages/transportation/BridgeConditions";
 // import CommuteMode from "./pages/transportation/CommuteMode";
@@ -72,7 +73,7 @@ function App() {
                 <Route path="bridge-conditions" element={<BridgeTransportation />} />
 
                 <Route path="commute-mode" element={<CommuteMode />} />
-                {/* <Route path="congestion" element={<Congestion />} /> */}
+                <Route path="congestion" element={<Congestion></Congestion>} />
                 {/* <Route path="miles-driven" element={<MilesDriven />} /> */}
                 {/* <Route path="pavement-conditions" element={<PavementConditions />} /> */}
                 {/* <Route path="transit-conditions" element={<TransitConditions />} /> */}
