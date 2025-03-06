@@ -12,6 +12,7 @@ import AirQuality from "./pages/transportation/BridgeTransportation";
 import BridgeTransportation from "./pages/transportation/BridgeTransportation";
 import CommuteMode from "./pages/transportation/CommuteMode";
 import Congestion from "./pages/transportation/Congestion";
+import Miles from "./pages/transportation/Miles";
 // Transportation
 // import BridgeConditions from "./pages/transportation/BridgeConditions";
 // import CommuteMode from "./pages/transportation/CommuteMode";
@@ -74,7 +75,7 @@ function App() {
 
                 <Route path="commute-mode" element={<CommuteMode />} />
                 <Route path="congestion" element={<Congestion></Congestion>} />
-                {/* <Route path="miles-driven" element={<MilesDriven />} /> */}
+                <Route path="miles-driven" element={<Miles />} />
                 {/* <Route path="pavement-conditions" element={<PavementConditions />} /> */}
                 {/* <Route path="transit-conditions" element={<TransitConditions />} /> */}
                 {/* <Route path="transit-ridership" element={<TransitRidership />} /> */}
