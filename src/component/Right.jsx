@@ -5,7 +5,7 @@ import { metrics } from '../common/metrics.js'
 import { motion, AnimatePresence } from "framer-motion";
 
 const transportationSubRoutes = [
-    { name: "Air Quality", link: "/transportation/air-quality" },
+    // { name: "Air Quality", link: "/transportation/air-quality" },
     { name: "Bridge Conditions", link: "/transportation/bridge-conditions" },
     { name: "Commute Mode", link: "/transportation/commute-mode" },
     { name: "Congestion", link: "/transportation/congestion" },
@@ -124,7 +124,7 @@ function Right() {
                         exit={{ x: "100%" }}
                         transition={{ duration: 0.5, ease: "easeInOut" }}
                     >
-                        <div className="grid lg:grid-cols-8 md:grid-cols-4 grid-cols-3 gap-x-4 gap-y-12">
+                        <div className="grid lg:grid-cols-8 md:grid-cols-4 grid-cols-3 gap-4">
                             {metrics.map((metric) => {
                                 const isHighlighted = currentCategory
                                     ? metric.category.includes(currentCategory.name.toLowerCase())

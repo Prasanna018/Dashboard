@@ -77,7 +77,7 @@ const FilterByCategory = ({ onLayoutChange }) => {
     }
 
     return (
-        <div className="relative">
+        <div className=" sticky top-20">
             {/* Toggle button for mobile/small screens */}
             <button
                 onClick={toggleVisibility}

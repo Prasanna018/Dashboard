@@ -8,7 +8,9 @@ import NavBar from "./component/NavBar";
 import Right from "./component/Right";
 
 // Import individual metric components for each category
-import AirQuality from "./pages/AirQuality";
+import AirQuality from "./pages/transportation/BridgeTransportation";
+import BridgeTransportation from "./pages/transportation/BridgeTransportation";
+import CommuteMode from "./pages/transportation/CommuteMode";
 // Transportation
 // import BridgeConditions from "./pages/transportation/BridgeConditions";
 // import CommuteMode from "./pages/transportation/CommuteMode";
@@ -67,9 +69,9 @@ function App() {
 
               {/* Transportation Routes */}
               <Route path="/transportation" element={<Right />}>
-                <Route path="air-quality" element={<AirQuality />} />
-                {/* <Route path="bridge-conditions" element={<BridgeConditions />} /> */}
-                {/* <Route path="commute-mode" element={<CommuteMode />} /> */}
+                <Route path="bridge-conditions" element={<BridgeTransportation />} />
+
+                <Route path="commute-mode" element={<CommuteMode />} />
                 {/* <Route path="congestion" element={<Congestion />} /> */}
                 {/* <Route path="miles-driven" element={<MilesDriven />} /> */}
                 {/* <Route path="pavement-conditions" element={<PavementConditions />} /> */}

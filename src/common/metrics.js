@@ -26,7 +26,7 @@ import last from '../assets/indicator_icons/tp_homepage_logo.png'
 
 export const metrics = [
     {
-        id: 1, name: "Air Quality", category: ["transportation", "sustainability", "equity", "environment", "very-good"], icon: air_quality,
+        id: 1, name: "Air Quality", category: ["sustainability", "equity", "environment", "very-good"], icon: air_quality,
     },
     { id: 2, name: "Bridge Conditions", category: ["transportation", "resiliency"], icon: bridge },
     { id: 3, name: "Business Formations", icon: business, category: ["resiliency", "economy"] },
