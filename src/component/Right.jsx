@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Outlet, useLocation, useNavigate } from "react-router-dom";
-import { metrics } from "../common/Metrics.js";
+// import { metrics } from "../common/Metrics.js";
+import { metrics } from '../common/metrics.js'
 import { motion, AnimatePresence } from "framer-motion";
 
 const transportationSubRoutes = [
